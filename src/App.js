@@ -1,24 +1,15 @@
-import { CompImage } from "./components/CompImage";
-import { Featback } from "./components/Featback";
-import { Footer } from "./components/Footer";
-import Navbar from "./components/Navbar";
-import { Product } from "./components/Product";
-import SlideAsBody from "./components/SlideAsBody";
 
+
+import './App.css';
+import Products from './components/Porducts';
 
 function App() {
     return (
-        <>
-            <Navbar />
-            <SlideAsBody />
-            <main>
-                <Product />
-                <CompImage />
-                <Featback />
-            </main>
-            <Footer />
-        </>
-    )
+        <div>
+            <Products />
+        </div>
+
+    );
 }
 
 export default App;
